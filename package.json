@@ -1,0 +1,25 @@
+{
+  "name": "nightmaretest",
+  "version": "0.0.1",
+  "description": "testing nightmare js scraping",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js",
+    "start:node": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "author": "henryhedges",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.5",
+    "nightmare": "^2.10.0",
+    "x-ray": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
