@@ -8,8 +8,7 @@ var nightmare = Nightmare();
 var xray = Xray();
 
 var rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
+  input: process.stdin
 });
 
 rl.question("Scrape what site? ", function(answer) {
